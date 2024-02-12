@@ -1,1 +1,3 @@
 SELECT CEIL(AVG(SALARY) - AVG(REPLACE(SALARY, '0', ''))) FROM EMPLOYEES;
+
+'In SQL, the CEIL() function is used to return the smallest integer value that is greater than or equal to a specified number. It essentially rounds up a number to the nearest integer'.
